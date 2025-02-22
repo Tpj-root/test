@@ -21,8 +21,8 @@
 
         // Fetch India's GeoJSON data
         //fetch("https://raw.githubusercontent.com/johan/world.geo.json/master/countries/IND.geo.json")
-        //fetch("https://github.com/Tpj-root/test/blob/5f063fd5bdea11c28bcd12387fca8bfd42abc936/india.geojson")
-        fetch("india.geojson")
+        fetch("https://github.com/Tpj-root/test/blob/5f063fd5bdea11c28bcd12387fca8bfd42abc936/india.geojson")
+        //fetch("india.geojson")
             .then(response => response.json())
             .then(data => {
                 L.geoJSON(data, {
